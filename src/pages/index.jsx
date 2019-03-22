@@ -10,9 +10,9 @@ const Homepage = () => (
   <BaseLayout>
     <Hero
       image
-      title='Guide to'
+      title=''
       main={{
-        content: 'the eviction process',
+        content: 'Eviction Guide',
         class: 'largeText'
       }}
       buttonContent={{
