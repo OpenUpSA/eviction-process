@@ -28,7 +28,6 @@ const BaseLayout = ({ children, classes }) => {
   return (
     <MuiThemeProvider {...{ theme }}>
         <Helmet>        
-         <meta charSet="utf-8" />
          <title>Eviction Guide</title>
         </Helmet>
         <div className={preventOverflow}>
