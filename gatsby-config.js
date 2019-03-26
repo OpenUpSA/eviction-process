@@ -5,8 +5,8 @@ const green = require('@material-ui/core/colors/green');
 const manifest = {
   resolve: `gatsby-plugin-manifest`,
   options: {
-    name: 'Protest Guide',
-    short_name: 'Protest Guide',
+    name: 'Eviction Guide',
+    short_name: 'Eviction Guide',
     start_url: '/',
     background_color: '#FF9015',
     theme_color: '#FF9015',
