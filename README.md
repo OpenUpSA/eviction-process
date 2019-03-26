@@ -1,6 +1,6 @@
 # Protest Guide &middot; ![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg)
 
-This repository contains all user-facing code used to render the [https://protestguide.org.za](https://protestguide.org.za).
+This repository contains all user-facing code used to render the [https://evictions.org.za/](https://evictions.org.za/).
 
 ## Getting Started
 
