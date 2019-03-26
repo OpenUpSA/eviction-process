@@ -1,7 +1,7 @@
 import React from 'react'
 import { CssBaseline } from '@material-ui/core';
+import {Helmet} from "react-helmet";
 import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
-// import s from 'styled-components';
 
 import addStyles from './styles';
 
@@ -27,6 +27,9 @@ const BaseLayout = ({ children, classes }) => {
 
   return (
     <MuiThemeProvider {...{ theme }}>
+        <Helmet>        
+         <title>Eviction Guide</title>
+        </Helmet>
         <div className={preventOverflow}>
           <CssBaseline />
           {children}
