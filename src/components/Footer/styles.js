@@ -1,4 +1,5 @@
 import { withStyles } from '@material-ui/core';
+import { Z_FIXED } from 'zlib';
 
 
 const styles = theme => ({
@@ -100,9 +101,11 @@ const styles = theme => ({
 
   footerWrapper: {
     marginTop: '4rem',
-
+    bottom: 0,
+    
     [theme.breakpoints.up('sm')]: {
       marginTop: '7rem',
+      bottom: 0,
     }
   },
 
