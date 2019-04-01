@@ -11,17 +11,17 @@ import addStyles from './styles';
 
 const actions = [
   {
-    icon: <Icon path={mdiFacebook} size={1} color='#D34727'/>,
+    icon: <Icon path={mdiFacebook} size={1} color='#003a70'/>,
     name: 'Facebook',
     href: 'https://www.facebook.com/sharer/sharer.php?u=https%3A//protestguide.org.za/'
   },
   {
-    icon: <Icon path={mdiTwitter} size={1} color='#D34727'/>,
+    icon: <Icon path={mdiTwitter} size={1} color='#003a70'/>,
     name: 'Twitter',
     href: 'https://twitter.com/home?status=https%3A//protestguide.org.za/'
   },
   {
-    icon: <Icon path={mdiWhatsapp} size={1} color='#D34727'/>,
+    icon: <Icon path={mdiWhatsapp} size={1} color='#003a70'/>,
     name: 'Whatsapp',
     href: 'whatsapp://send?text=https://protestguide.org.za'
   },
