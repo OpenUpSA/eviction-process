@@ -31,8 +31,9 @@ const Hero = ({ classes, ...props }) => {
   const ButtonsContainer = styled.div`
      @media (min-width: 650px) {
       display: flex;
-      justify-content: space-around;
+      flex-direction: column;
       margin: 0 auto;
+      margin-bottom: 8px;
       width: 366px;
      }
   `
@@ -65,19 +66,24 @@ const Hero = ({ classes, ...props }) => {
         }
       </h1>
       <ButtonsContainer>
+        <div>
       <a href={props.buttonContent.url_pdf} className={buttonLink} target={props.buttonContent.target} rel="noopener noreferrer">
         <div className={button}>
           <Button size="large" variant="contained" color="primary" className={buttonText}>{props.buttonContent.text}Download the Guide</Button>
         </div>
       </a>
-         <br/>
+      </div>
+          <br/>
+         <div>
         <a href={props.buttonContent.url_form} className={buttonLink} target={props.buttonContent.target} rel="noopener noreferrer">
         <div className={button}>
-          <Button size="large" variant="contained" color="primary" className={buttonText}>{props.buttonContent.text}Provide Feedback</Button>
+          <Button size="large" variant="contained" color="primary" className={buttonText}>{props.buttonContent.text}Give us your Eviction-Guide Feedback</Button>
         </div>
         </a>
+        </div>
      </ButtonsContainer>
     </div>
+    
   )
 
   const quoteMarkup = (
