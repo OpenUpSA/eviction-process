@@ -122,8 +122,7 @@ const styles = theme => ({
 
     [theme.breakpoints.up('md')]: {
       display: 'block',
-      maxHeight: 375,
-      maxWidth: 200,
+      maxWidth: '100%',
     }
   },
 
