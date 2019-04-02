@@ -92,9 +92,8 @@ const Hero = ({ classes, ...props }) => {
         <p>
           <Typography variant="headline" className={quote} component="span">
             “No one may be evicted from their home, or have their home demolished, without an order
-            of court <br />
-             made after considering <br/>
-             all relevant circumstances.”
+            of court made<br />
+            after considering all relevant circumstances.”
           </Typography>
           <Typography className={attribution} component="span">
             - Section 26(3) of the constitution

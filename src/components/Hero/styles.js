@@ -1,4 +1,5 @@
 import { withStyles } from '@material-ui/core';
+import { bold } from 'ansi-colors';
 // import { red } from '@material-ui/core/colors';
 
 
@@ -86,7 +87,6 @@ const styles = theme => ({
   },
 
   quote: {
-    fontSize: '28px',
     textAlign: 'center',
     minWidth: '98%',
     fontFamily: 'Oswald, Arial, sans-serif',
