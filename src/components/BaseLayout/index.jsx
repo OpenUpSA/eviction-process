@@ -24,7 +24,6 @@ const theme = createMuiTheme({
 
 const BaseLayout = ({ children, classes }) => {
   const { preventOverflow } = classes;
-
   return (
     <MuiThemeProvider {...{ theme }}>
         <Helmet>        
