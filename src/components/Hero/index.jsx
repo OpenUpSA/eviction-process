@@ -43,6 +43,9 @@ const Hero = ({ classes, ...props }) => {
        min-width: 99%;
      }
   `
+  const ButtonStyled = styled(Button)`
+     background-color: #da2f2f;
+  `;
 
   const headlineMarkup = (
     <div className={root}>
@@ -77,7 +80,7 @@ const Hero = ({ classes, ...props }) => {
          <div>
         <a href={props.buttonContent.url_form} className={buttonLink} target={props.buttonContent.target} rel="noopener noreferrer">
         <div className={button}>
-          <Button size="large" variant="contained" color="primary" className={buttonText}>{props.buttonContent.text}Give us your Eviction-Guide Feedback</Button>
+          <ButtonStyled size="large" variant="contained" className={buttonText}>{props.buttonContent.text}I need help with My Eviction</ButtonStyled>
         </div>
         </a>
         </div>
