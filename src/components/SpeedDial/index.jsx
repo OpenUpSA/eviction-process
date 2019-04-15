@@ -13,12 +13,12 @@ const actions = [
   {
     icon: <Icon path={mdiFacebook} size={1} color='#003a70'/>,
     name: 'Facebook',
-    href: ' https://www.facebook.com/ReclaimCT/'
+    href: 'https://www.facebook.com/ReclaimCT/'
   },
   {
     icon: <Icon path={mdiTwitter} size={1} color='#003a70'/>,
     name: 'Twitter',
-    href: ' https://twitter.com/ReclaimCT'
+    href: 'https://twitter.com/ReclaimCT'
   },
   {
     icon: <Icon path={mdiWhatsapp} size={1} color='#003a70'/>,
