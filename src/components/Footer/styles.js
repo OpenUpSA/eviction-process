@@ -1,6 +1,5 @@
 import { withStyles } from '@material-ui/core';
 
-
 const styles = theme => ({
   helpline: {
     backgroundColor: '#003A70',
@@ -96,14 +95,6 @@ const styles = theme => ({
     transform: 'rotate(-90deg)',
     width: 30,
     height: 30,
-  },
-
-  footerWrapper: {
-    marginTop: '4rem',
-
-    [theme.breakpoints.up('sm')]: {
-      marginTop: '7rem',
-    }
   },
 
   helpLineSpan: {
