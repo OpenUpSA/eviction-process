@@ -19,7 +19,7 @@ const styles = theme => ({
     marginTop: 40,
 
     [theme.breakpoints.up('sm')]: {
-      marginTop: 110,
+      marginTop: 40,
       marginBottom: 30,
     }
   },
