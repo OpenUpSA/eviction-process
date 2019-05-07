@@ -44,7 +44,9 @@ const Hero = ({ classes, ...props }) => {
      }
   `
   const ButtonStyled = styled(Button)`
-     background-color: #da2f2f;
+     &&& {
+      background-color: #da2f2f;
+    }
   `;
 
   const headlineMarkup = (
