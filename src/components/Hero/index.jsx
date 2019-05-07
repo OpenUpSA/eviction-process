@@ -88,7 +88,6 @@ const Hero = ({ classes, ...props }) => {
         </div>
      </ButtonsContainer>
     </div>
-    
   )
 
   const quoteMarkup = (
