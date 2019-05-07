@@ -140,6 +140,7 @@ const styles = theme => ({
     fontSize: '1.1rem',
     fontFamily: 'Oswald, Arial, sans-serif',
     boxShadow: 'none',
+    color: '#FFFFFF',
   },
 
   buttonLink: {
