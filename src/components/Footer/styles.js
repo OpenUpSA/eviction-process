@@ -97,12 +97,6 @@ const styles = theme => ({
     height: 30,
   },
 
-  footerWrapper: { 
-    [theme.breakpoints.up('sm')]: {
-      marginTop: '1rem',
-    }
-  },
-
   helpLineSpan: {
     display: 'flex',
     alignItems: 'center'
