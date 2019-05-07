@@ -31,8 +31,9 @@ const Hero = ({ classes, ...props }) => {
   const ButtonsContainer = styled.div`
      @media (min-width: 650px) {
       display: flex;
-      justify-content: space-around;
+      flex-direction: column;
       margin: 0 auto;
+      margin-bottom: 8px;
       width: 366px;
      }
   `
@@ -42,6 +43,11 @@ const Hero = ({ classes, ...props }) => {
        min-width: 99%;
      }
   `
+  const ButtonStyled = styled(Button)`
+     &&& {
+      background-color: #da2f2f;
+    }
+  `;
 
   const headlineMarkup = (
     <div className={root}>
@@ -65,19 +71,24 @@ const Hero = ({ classes, ...props }) => {
         }
       </h1>
       <ButtonsContainer>
+        <div>
       <a href={props.buttonContent.url_pdf} className={buttonLink} target={props.buttonContent.target} rel="noopener noreferrer">
         <div className={button}>
           <Button size="large" variant="contained" color="primary" className={buttonText}>{props.buttonContent.text}Download the Guide</Button>
         </div>
       </a>
-         <br/>
+      </div>
+          <br/>
+         <div>
         <a href={props.buttonContent.url_form} className={buttonLink} target={props.buttonContent.target} rel="noopener noreferrer">
         <div className={button}>
-          <Button size="large" variant="contained" color="primary" className={buttonText}>{props.buttonContent.text}Provide Feedback</Button>
+          <ButtonStyled size="large" variant="contained" className={buttonText}>{props.buttonContent.text}I need help with My Eviction</ButtonStyled>
         </div>
         </a>
+        </div>
      </ButtonsContainer>
     </div>
+    
   )
 
   const quoteMarkup = (
@@ -86,9 +97,9 @@ const Hero = ({ classes, ...props }) => {
         <p>
           <Typography variant="headline" className={quote} component="span">
             “No one may be evicted from their home, or have their home demolished, without an order
-            of court <br />
-             made after considering <br/>
-             all relevant circumstances.”
+            of court<br />
+            made after considering all relevant circumstances.”
+            of court made after considering all relevant circumstances.”
           </Typography>
           <Typography className={attribution} component="span">
             - Section 26(3) of the constitution

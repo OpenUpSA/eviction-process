@@ -17,7 +17,6 @@ const HeaderContainer = styled.div`
   margin-left: 0%;
   @media (min-width: 650px) {
       justify-content: space-between;
-      margin-right: 55%;
      }
 `
 

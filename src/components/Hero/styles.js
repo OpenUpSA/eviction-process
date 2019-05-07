@@ -19,7 +19,7 @@ const styles = theme => ({
     marginTop: 40,
 
     [theme.breakpoints.up('sm')]: {
-      marginTop: 110,
+      marginTop: 40,
       marginBottom: 30,
     }
   },
@@ -140,6 +140,7 @@ const styles = theme => ({
     fontSize: '1.1rem',
     fontFamily: 'Oswald, Arial, sans-serif',
     boxShadow: 'none',
+    color: '#FFFFFF',
   },
 
   buttonLink: {
