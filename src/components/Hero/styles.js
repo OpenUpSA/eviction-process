@@ -86,16 +86,11 @@ const styles = theme => ({
   },
 
   quote: {
-    fontSize: '28px',
     textAlign: 'center',
     minWidth: '98%',
     fontFamily: 'Oswald, Arial, sans-serif',
     margin: '0 auto',
-
-    [theme.breakpoints.up('sm')]: {
-      fontSize: '1.5rem',
-      lineHeight: '2rem',
-    }
+    fontSize: '1.5rem',
   },
 
   attribution: {
