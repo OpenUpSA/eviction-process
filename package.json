@@ -1,5 +1,5 @@
 {
-  "name": "protest-guide",
+  "name": "eviction-guide",
   "version": "1.0.0",
   "dependencies": {
     "@material-ui/core": "^3.2.2",

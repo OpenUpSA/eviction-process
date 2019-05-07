@@ -23,7 +23,7 @@ const actions = [
   {
     icon: <Icon path={mdiWhatsapp} size={1} color='#003a70'/>,
     name: 'Whatsapp',
-    href: 'whatsapp://send?text=https://protestguide.org.za'
+    href: 'whatsapp://send?text=https://evictions.org.za/'
   },
 ];
 

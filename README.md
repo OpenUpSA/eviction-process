@@ -1,12 +1,12 @@
-# Protest Guide &middot; ![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg)
+# Eviction Guide &middot; ![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg)
 
-This repository contains all user-facing code used to render the [https://protestguide.org.za](https://protestguide.org.za).
+This repository contains all user-facing code used to render the [https://evictions.org.za/](https://evictions.org.za/).
 
 ## Getting Started
 
 ### Local development
 
-1. Clone this project by running `git clone https://github.com/OpenUpSA/protest-guide.git`.
+1. Clone this project by running `git clone https://github.com/OpenUpSA/eviction-process.git`.
 2. Make sure you have the latest [NodeJS](https://nodejs.org/en/) installed.
 3. Run `npm install` in the root folder of the repository.
 4. Run `npm start` to spin up the development server.*
