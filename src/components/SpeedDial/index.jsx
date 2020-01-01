@@ -23,10 +23,10 @@ const actions = [
   {
     icon: <Icon path={mdiWhatsapp} size={1} color='#003a70'/>,
     name: 'Whatsapp',
-    href: 'whatsapp://send?text=https://evictions.org.za/'
+    href: 'whatsapp://send?text=Hi, my name is [ADD YOUR NAME HERE]. I need help with my eviction. Please respond to me on this number.&phone=+27839624661'
+    // Linking.openURL('whatsapp://send?text=hello&phone=xxxxxxxxxxxxx')
   },
 ];
-
 class SpeedDials extends React.Component {
   state = {
     open: false,
