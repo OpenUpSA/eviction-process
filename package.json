@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@wapps/gatsby-plugin-material-ui": "^1.1.0",
-    "gatsby": "^2.0.89",
+    "gatsby": "^2.32.13",
     "gatsby-plugin-google-fonts": "0.0.4",
     "gatsby-plugin-manifest": "^2.0.5",
     "gatsby-plugin-offline": "^2.0.5",
